@@ -10,6 +10,7 @@ const NavBar = () => {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link href="/games">Games</Nav.Link>
+            <Nav.Link href="/tournaments">Tournaments</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

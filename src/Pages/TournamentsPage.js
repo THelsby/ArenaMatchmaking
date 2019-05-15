@@ -1,5 +1,5 @@
 import React from "react";
-import GamesGrid from "../components/GamesGrid";
+import TournamentView from "../components/TournamentView";
 
 const styles = {
   div: {
@@ -7,10 +7,10 @@ const styles = {
   }
 };
 
-export const Games = () => {
+export const TournamentsPage = () => {
   return (
     <div style={styles.div}>
-      <GamesGrid />
+      <TournamentView />
     </div>
   );
 };
